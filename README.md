@@ -5,6 +5,7 @@ Link do vídeo de funcionamento: https://youtube.com/shorts/j5N-eauN61o?feature=
 ### Tabela de Avaliação entre Pares
 
 #### Avaliador: Fernanda Correia Nascimento
+#### Avaliado: Felipe Elgenneni
 
 |Critério|	Contempla (Pontos)|	Contempla Parcialmente (Pontos)	|Não Contempla (Pontos)	|Observações do Avaliador|
 |-|-|-|-|-|
