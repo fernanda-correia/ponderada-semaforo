@@ -2,6 +2,22 @@
 
 Link do vídeo de funcionamento: https://youtube.com/shorts/j5N-eauN61o?feature=share
 
+### Detalhamento da Montagem
+
+A protoboard é alimentada por um Arduino UNO conectado à porta do computador. O terminal negativo (GND) do Arduino é conectado a protoboard por um jumper, que alimenta uma coluna de entradas responsáveis pela conexão negativa dos resistores (todos com resistência de 33 Ohms), e os jumpers que se conectam ao terminal cátodo (-) dos LEDs. Os terminais ânodos (+) dos LEDs, por sua vez, são alimentados por jumpers fêmea-macho, que recebem corrente de jumpers macho-macho conectados nas portas positivas 8, 9 e 11. Dessa forma, a corrente passa por um fluxo que permite ligar e desligar os LEDs conforme especificados no código 'semaforo.ino'.
+
+### Tabela de componentes utilizados
+
+|Componente |Quantidade |Valor/ Modelo |
+|-|-|-|
+|Jumper macho-macho | 4 | -|
+|Jumper macho-fêmea | 6 | -|
+|Arduino | 1 | Arduino UNO|
+|Resistor | 3 | 33Ω  5% (1/4W) |
+|LED | 3 | - |
+|Suporte de MDF | 1 |- |
+
+
 ### Tabela de Avaliação entre Pares
 
 #### Avaliador: Fernanda Correia Nascimento
