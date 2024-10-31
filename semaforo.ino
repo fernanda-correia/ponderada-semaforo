@@ -2,6 +2,7 @@ int pinVerde = 8;
 int pinAmarelo = 11;
 int pinVermelho = 9;
 
+/* Criação de uma classe LED para permitir a reutilização do código em diversos leds. */
 class LED {
   private:
     int pinLed;
@@ -28,6 +29,7 @@ class LED {
     }
 };
 
+/* Instâncias da classe LED, com todas as fases do semáforo*/
 LED ledVermelho(pinVermelho, 6000, 100);
 LED ledAmarelo(pinAmarelo, 2000, 100);
 LED ledVerde(pinVerde, 4000, 100);
@@ -40,6 +42,7 @@ void setup() {
   pinMode(pinVerde, OUTPUT);
 }
 
+/* Definição do fluxo de fases do semáforo seguindo as instruções da ponderada */
 void loop() {
   ledVermelho.ligado();
   ledVermelho.desligado();
