@@ -4,7 +4,7 @@ Link do vídeo de funcionamento: https://youtube.com/shorts/j5N-eauN61o?feature=
 
 ### Detalhamento da Montagem
 
-A protoboard é alimentada por um Arduino UNO conectado à porta do computador. O terminal negativo (GND) do Arduino é conectado a protoboard por um jumper, que alimenta uma coluna de entradas responsáveis pela conexão negativa dos resistores (todos com resistência de 33 Ohms), e os jumpers que se conectam ao terminal cátodo (-) dos LEDs. Os terminais ânodos (+) dos LEDs, por sua vez, são alimentados por jumpers fêmea-macho, que recebem corrente de jumpers macho-macho conectados nas portas positivas 8, 9 e 11. Dessa forma, a corrente passa por um fluxo que permite ligar e desligar os LEDs conforme especificados no código 'semaforo.ino'. No desenvolvimento do projeto, foi explorada a posibilidade de utilização do _buzzer_ para auxiliar na representação das luzes com sons, no entanto, essa possibilidade não pode ser concluida devido a problemas envolvendo a frequência sonora da peça.
+A protoboard é alimentada por um Arduino UNO conectado à porta do computador. O terminal negativo (GND) do Arduino é conectado a protoboard por um jumper, que alimenta uma coluna de entradas responsáveis pela conexão negativa dos resistores (todos com resistência de 330 Ohms), e os jumpers que se conectam ao terminal cátodo (-) dos LEDs. Os terminais ânodos (+) dos LEDs, por sua vez, são alimentados por jumpers fêmea-macho, que recebem corrente de jumpers macho-macho conectados nas portas positivas 8, 9 e 11. Dessa forma, a corrente passa por um fluxo que permite ligar e desligar os LEDs conforme especificados no código 'semaforo.ino'. No desenvolvimento do projeto, foi explorada a posibilidade de utilização do _buzzer_ para auxiliar na representação das luzes com sons, no entanto, essa possibilidade não pode ser concluida devido a problemas envolvendo a frequência sonora da peça.
 
 ### Tabela de componentes utilizados
 
@@ -13,7 +13,7 @@ A protoboard é alimentada por um Arduino UNO conectado à porta do computador. 
 |Jumper macho-macho | 4 | -|
 |Jumper macho-fêmea | 6 | -|
 |Arduino | 1 | Arduino UNO|
-|Resistor | 3 | 33Ω  5% (1/4W) |
+|Resistor | 3 | 330Ω  5% (1/4W) |
 |LED | 3 | - |
 |Suporte de MDF | 1 |- |
 
